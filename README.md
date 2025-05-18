@@ -42,3 +42,5 @@ SEO meta tags in the head of each page.
 Contact page should have a form with fields like name, email, message etc.
 After completing this project, you will have a good understanding of how to structure a website using HTML, basic SEO meta tags, HTML tags, forms etc. You can now move on to the next project where you will learn how to style this website using CSS.
 =====================================================================================================================================
+
+PARA ENTRAR EN EL PROYECTO DEL CV O CURRICULUM VITAE, SIMPLEMENTE TIENES QUE DARLE CLICK A LA ULTIMA IMAGEN QUE APARECE AL PIE DE LA PAGINA, UN GIF EN FORMA DE GLITCH.
