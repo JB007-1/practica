@@ -10,65 +10,61 @@
     <title>FrontEnd Developer || Pagina de practica</title>
     <link rel="shortcut icon" href="/img/icon_logo.png" type="image/x-icon">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Oswald:wght@200..700&family=Reddit+Sans+Condensed:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body style="font-family: 'Glass Antiqua';">
+<body>
     <!-- Este es el espacio para el encabezado y demas contenido para la navegacion -->
     <header>
-        <section id="inicio" class="section-inicio">
-            <div class="div-1.1">
+        <div class="div-1_1">
 
-                <div class="div-1.1.1">
-                    <div class="logo">
-                        <img src="/img/icon_logo_sai-rmvbg.png" alt="Logo de la pagina" height="60px" width="42px">
-                    </div>
-                    <div class="nombre">    
-                        <h1>Jose Aguilar</h1>
-                    </div>
+            <div class="div-1_1_1">
+                <div class="logo">
+                    <img src="/img/icon_logo_sai-rmvbg.png" alt="Logo de la pagina" height="60px" width="42px">
                 </div>
-
-                <div class="div-1.1.2">
-                    <nav>
-                        <ul>
-                            <li><a href="#inicio">Inicio</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#articles">Articles</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-
-            </div>
-
-            <div class="div-1.2">
-                <div class="div-1.2.1">
-                    <h2>Frontend Developer</h2>
-                </div>
-                <div class="div-1.2.2">
-                    <p>HTML only with proper layout, no styling</p>
+                <div class="nombre">
+                    <h1>Jose Aguilar</h1>
                 </div>
             </div>
-        </section>
+
+            <div class="div-1_1_2">
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#articles">Articles</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
     </header>
 
-    <hr>
+    <section id="inicio" class="section-inicio">
+        <div class="div-1_2">
+            <div class="div-1_2_1">
+                <img src="img/tyler.jpg" alt="Foto de Usuario">
+            </div>
+            <div class="div-1_2_2">
+                <h2>Frontend Developer</h2>
+                <p>HTML only with proper layout, no styling</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- <hr> -->
 
     <!-- Este es el espacio para el contenido principal de la pagina -->
     <!-- Aqui se puede agregar el contenido que se desee, como texto, imagenes, formularios, etc. -->
     <main>
-        <section id="projects" class="section-projects">
+        <section id="projects" class="section-content">
 
-            <div class="div-2.1">
+            <div class="div-2_1">
                 <h3>Projects</h3>
                 <p>Project realized with html, CSS & JS</p>
 
-                <div class="div-2.1.1">
+                <div class="div-2_1_1">
                     <h4>Project 1</h4>
                     <p>Project description</p>
                     <hr>
@@ -83,37 +79,37 @@
                     <hr>
                     <h4>Project 5</h4>
                     <p>Project description</p>
-                    <hr>
                 </div>
             </div>
 
-            <div class="div-2.2">
-                <h3>Work Experience</h3>
+            <div class="div-content_x2">
+                <div class="div-2_2">
+                    <h3>Work Experience</h3>
 
-                <div class="div-2.2.1">
-                    <h4>roadmap.sh</h4>
-                    <p>Solved all the frontend projects</p>
-                    <a href="#">Visit my Profile</a>
-                    <hr>
-                    <h4>Company 2</h4>
-                    <p>Job description</p>
-                    <hr>
+                    <div class="div-2_2_1">
+                        <h4>roadmap.sh</h4>
+                        <p>Solved all the frontend projects</p>
+                        <a href="#">Visit my Profile</a>
+                        <hr>
+                        <h4>Company 2</h4>
+                        <p>Job description</p>
+                    </div>
+                </div>
+
+                <div class="div-2_3">
+                    <h3>OpenSource Work</h3>
+
+                    <div class="div-2_3_1">
+                        <p>Contribute to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
+                        <a href="#">Visit my GitHub Profile</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="div-2.3">
-                <h3>OpenSource Work</h3>
-
-                <div class="div-2.3.1">
-                    <p>Contribute to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
-                    <a href="#">Visit my GitHub Profile</a>
-                </div>
-            </div>
-
-            <div class="div-2.4">
+            <div class="div-2_4">
                 <h3>Education</h3>
 
-                <div class="div-2.4.1">
+                <div class="div-2_4_1">
                     <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
                     <p>Courses I took:</p>
                     <ul>
@@ -129,25 +125,37 @@
                     </ul>
                 </div>
             </div>
-        </section> <!-- Section - Projects -->
+        </section> <!-- Section - Content -->
 
+        <h2 class="title_articles">Reviews from my teachers</h2>
+        
         <section id="articles" class="section-articles">
 
-            <h2>Reviews from my teachers</h2>
-
-            <div class=" div-3.1" style="border: 2px solid #000; border-radius: 15px; padding: 10px;">
+            <div class="content_articulo div-3_1">
                 <p>John doe was a brilliant student; always stood out with his assignments.</p>
                 <p>Jane Doe</p>
                 <p>Assistant Professor</p>
             </div>
 
-            <div class="div-3.2" style="border: 2px solid #000; border-radius: 15px; padding: 10px;">
+            <div class="content_articulo div-3_2">
                 <p>John doe was a brilliant student; always stood out with his assignments.</p>
                 <p>Jane Doe</p>
                 <p>Assistant Professor</p>
             </div>
 
-            <div class="div-3.3" style="border: 2px solid #000; border-radius: 15px; padding: 10px;">
+            <div class="content_articulo div-3_3">
+                <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                <p>Jane Doe</p>
+                <p>Assistant Professor</p>
+            </div>
+            
+            <div class="content_articulo div-3_4">
+                <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                <p>Jane Doe</p>
+                <p>Assistant Professor</p>
+            </div>
+
+            <div class="content_articulo div-3_5">
                 <p>John doe was a brilliant student; always stood out with his assignments.</p>
                 <p>Jane Doe</p>
                 <p>Assistant Professor</p>
@@ -161,7 +169,8 @@
         <section id="contact" class="section-contact">
             <p>&copy; all rights reserved 2025</p>
             <div class="div-4" style="display: flex; justify-content: center; align-items: center;">
-                <a href="contact.html"><img src="img/clancy_glitch.gif" alt="Secreto oculto" width="50px" height="50px" style="border-radius: 50%;"></a>
+                <a href="contact.html"><img src="img/clancy_glitch.gif" alt="Secreto oculto" width="50px" height="50px"
+                        style="border-radius: 50%;"></a>
             </div>
         </section> <!-- Section - Contact -->
     </footer>
